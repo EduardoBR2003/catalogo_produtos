@@ -14,7 +14,7 @@ class CatalogoApp extends StatelessWidget {
     return MaterialApp(
       title: 'Catálogo de Produtos',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(colorSchemeSeed: Colors.teal),
+      theme: ThemeData(colorSchemeSeed: Colors.indigo),
       home: const CatalogoScreen(),
     );
   }
